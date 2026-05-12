@@ -7,8 +7,12 @@ public class House extends Asset{
     private int lotSize;
 
     //Constructor
-    public House(String description, String dateAcquired, double originalCost) {
+    public House(String description, String dateAcquired, double originalCost, String address, int condition, int squareFoot, int lotSize) {
         super(description, dateAcquired, originalCost);
+        this.address = address;
+        this.condition = condition;
+        this.squareFoot = squareFoot;
+        this.lotSize = lotSize;
     }
 
     //Setters/Getters
