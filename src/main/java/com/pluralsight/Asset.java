@@ -14,6 +14,14 @@ public class Asset {
         this.originalCost = originalCost;
     }
 
+
+    //Getters
+
+
+    public double getOriginalCost() {
+        return originalCost;
+    }
+
     //Method inside of Asset
     public double getValue(){
         return originalCost;
