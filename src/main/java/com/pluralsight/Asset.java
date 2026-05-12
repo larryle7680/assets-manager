@@ -14,6 +14,9 @@ public class Asset {
         this.originalCost = originalCost;
     }
 
+    public String getDescription() {
+        return description;
+    }
 
     //Getters
 
